@@ -1,0 +1,119 @@
+@import './blocks/scss/fonts.scss';
+@import './blocks/scss/reset.scss';
+@import './blocks/scss/vars.scss';
+@import './blocks/header/header.scss';
+@import './blocks/logo/logo.scss';
+@import './blocks/menu/menu.scss';
+@import './blocks/top_baner/top_baner.scss';
+@import './blocks/news/news.scss';
+@import './blocks/main_page_price/main_page_price.scss';
+@import './blocks/articles/articles.scss';
+@import './blocks/top_line/top_line.scss';
+
+body {
+    background-color: $bg-color;
+    color: $white;
+    font-family: "Overpass", sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.main {
+    min-height: 100vh;
+}
+
+.dp01 {
+    background-color: lighten($bg-color, 5%);
+    box-shadow:
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+        0px 2px 1px -1px rgba(0, 0, 0, 0.12),
+        0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dp02 {
+    background-color: lighten($bg-color, 7%);
+    box-shadow:
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+        0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+        0px 3px 1px -2px rgba(0, 0, 0, 0.12),
+        0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dp03 {
+    background-color: lighten($bg-color, 8%);
+    box-shadow:
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+        0px 3px 4px 0px rgba(0, 0, 0, 0.14),
+        0px 3px 3px -2px rgba(0, 0, 0, 0.12),
+        0px 1px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dp04 {
+    background-color: lighten($bg-color, 9%);
+    box-shadow:
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+        0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 10px 0px rgba(0, 0, 0, 0.12),
+        0px 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+.dp06 {
+    background-color: lighten($bg-color, 11%);
+    box-shadow:
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+        0px 6px 10px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 18px 0px rgba(0, 0, 0, 0.12),
+        0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+}
+
+.dp08 {
+    background-color: lighten($bg-color, 12%);
+    box-shadow:
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+        0px 8px 10px 1px rgba(0, 0, 0, 0.14),
+        0px 3px 14px 2px rgba(0, 0, 0, 0.12),
+        0px 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+.dp12 {
+    background-color: lighten($bg-color, 14%);
+    box-shadow:
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+        0px 12px 17px 2px rgba(0, 0, 0, 0.14),
+        0px 5px 22px 4px rgba(0, 0, 0, 0.12),
+        0px 7px 8px -4px rgba(0, 0, 0, 0.2);
+}
+
+.dp16 {
+    background-color: lighten($bg-color, 15%);
+    box-shadow:
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+        0px 16px 24px 2px rgba(0, 0, 0, 0.14),
+        0px 6px 30px 5px rgba(0, 0, 0, 0.12),
+        0px 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.dp24 {
+    background-color: lighten($bg-color, 16%);
+    box-shadow:
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+        0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+        0px 9px 46px 8px rgba(0, 0, 0, 0.12),
+        0px 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+
+.alternative-text--green {
+    color: $green;
+}
+
+.alternative-text--gray {
+    color: $gray;
+}

@@ -1,0 +1,20 @@
+@use '../scss/vars.scss';
+@use "~sass-rem" as rem;
+
+.articles__wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.563rem;
+    justify-items: center;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 3.125rem 0;
+
+    @media screen and (max-width: 991px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (max-width: 767px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
